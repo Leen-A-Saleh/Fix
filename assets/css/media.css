@@ -1,0 +1,960 @@
+@media(max-width: 570px){
+    .navbar-toggler:hover{
+        color: var(--main-color);
+    }
+    nav ul li .nav-link:hover::after{
+        width: 0%;
+    }
+    nav ul li .nav-link:hover{
+        color: var(--main-color);
+    }
+    nav ul li:nth-last-child(2){
+        margin-left: 4px !important;
+    }
+    .navbar ul span{
+        right: 300px;
+    }
+    .navbar ul .nav-item:nth-child(2):hover .dropdown-menu{
+        display: none;
+    }
+    .navbar ul .nav-item:nth-child(2) .dropdown-menu.show{
+        display: block; 
+        border: none;
+    }
+    .navbar ul .nav-item:nth-child(2) .dropdown-menu.show li{
+        margin-left: 10px !important;
+    }
+    .navbar ul .nav-item:nth-child(2) .dropdown-menu .dropdown-item:hover{
+        border-right: none;
+        background-color: transparent;
+    }
+    .header{
+        height: 1100px !important;
+    }
+    .header-content h1{
+        width: 100% !important;
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 13px;
+    }
+    .header-content{
+        margin-top: 50px;
+        margin-left: 8px;
+        padding-bottom: 60px !important;
+        width: 95% !important;
+    }
+    .header a{
+        right: 135px;
+        padding: 10px;
+    }
+    .header{
+        background-position: -200px -100px;
+    }
+    .header .overlay{
+        height: 1000px !important;
+    }
+    .header-imgs .main-img{
+        opacity: 0;
+    }
+    .heder-imgs-hover img{
+        opacity: 1;
+        width: 30%;
+    }
+    .heder-imgs-hover{
+        width: 100%;
+        opacity: 1;
+    }
+    .heder-imgs-hover.sm{
+        margin-top: -4px !important;
+    }
+    .header-imgs:hover .heder-imgs-hover{
+        width: 100%;
+    } 
+    .pricing{
+        margin-top: -30px !important;
+        padding-top: 0 !important;
+    }
+    .pricing-item{
+        width: 100%;
+        text-align: center;
+    }
+    .pricing-item .INFO{
+        padding-right: 30px;
+    }
+    .pricing p{
+        font-size: 13px;
+    }
+    .pricing .chooseUs{
+        background-position: -300px 0px;
+        height: 600px !important;
+    }
+    .pricing .chooseUs h2{
+        font-weight: 500;
+        padding-top: 0 !important;
+    }
+    .chooseUs .row{
+        width: 100%;
+    }
+    .pricing .chooseUs i{
+        font-size: 22px;
+        left: -16px;
+    }
+    .services-item .overlay{
+        height: 223px;
+    }
+    .services-item .overlay i{
+        transform: scale(3);
+    }
+    .services .numbers{
+        background-position: -300px 0;
+    }
+    .say .carousel-inner{
+        width: 100% !important;
+    }
+    .say .partof-say p:nth-child(1){
+        width: 50%;
+        margin: auto;
+    }
+    .say .partof-say p:nth-child(2){
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .say .say-sm{
+        margin: auto;
+        width: 75%;
+    }
+    .shop{
+        padding-left: 23px !important;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .shop-item h3{
+        margin-top: -50px !important;
+    }
+    .shop .icons {
+        left: 120px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 325px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 370px;
+    }
+    .map .sm-map{
+        margin-top: -8px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .col-md-3:nth-child(2){
+        padding-right: 60px;
+    }
+    .footer h2{
+        margin-top: 30px;
+        margin-bottom: -20px;
+        font-weight: 600;
+    }
+    /* ==============shop.html============= */
+    .shop-header{
+        background-position: -100px 0px;
+    }
+    .shop-header h1{
+        margin-left: -25px !important;
+        height: 210px !important;
+        font-size: 34px !important;
+        font-weight: 500;
+    }
+    .shop-header .shop-header-item {
+        margin-left: -22px !important;
+    }
+    .shop-shop.shop .shop-head span:nth-child(5){
+        position: absolute;
+        top: 40px;
+        right: 140px;
+        width: 100% !important;
+    }
+    .shop-shop.shop .shop-item{
+        margin-left: -20px;
+    }
+    .infobar-icons.-shop{
+        margin-top: 40px;
+    }
+    .accordion-line.-sm{
+        width: 333px;
+    }
+    .shop {
+        padding-left: 0px !important;
+    }
+    /* ==============services.html============= */
+    .services-header{
+        background-position: 0px;
+    }
+    .services-header h1{
+        margin-left: -25px !important;
+        height: 210px !important;
+        font-size: 34px !important;
+        font-weight: 500;
+    }
+    .services-header .shop-header-item {
+        margin-left: -22px !important;
+    }
+    .find{
+        margin-top: -50px !important;
+        margin-left: 0px;
+    }
+    .find-sub{
+        display: block  !important;
+        margin-top: 30px;
+    }
+    .find-sub div{
+        margin-top: 20px;
+    }
+    /* =========projects========= */
+    .projects.services .services-item{
+        margin-left: 40px;
+    }
+    .projects.services .services-item .overlay{
+        height: 195px;
+    }
+    .projects.services .services-item .overlay .title{
+        left: 45px;
+    }
+    .projects.services  .services-item .overlay:hover .title::before{
+        height: 150px;
+    }
+    .projects.services  .services-item .overlay:hover .title::after{
+        width: 250px;
+    }
+    /* ========blog.html======= */
+    .blog.shop-section .services-item .overlay{
+        height: 190px;
+    }
+    /* ============contact.html=========== */
+    .shop-header.contact{
+        background-position: 0px;
+        height: 220px;
+    } 
+    .shop-header.contact p{
+        left: 30px;
+    }
+    .find.cont{
+        margin-top: 10px !important;
+    }
+}
+@media only screen and (min-width: 393px) and (max-width: 600px){
+    .navbar ul span{
+        right: 330px !important;
+    }
+    .header a{
+        right: 165px !important;
+    }
+    .services .overlay{
+        height: 245px !important;
+    }
+    .services .numbers{
+        background-position: 0px;
+        height: 1000px;
+    }
+    .services .numbers .overlay{
+        height: 1000px !important;
+    }
+    .say p:nth-child(1){
+        width: 100% !important;
+    }
+    .say .say-sm{
+        width: 60%;
+    }
+    .shop .icons {
+        left: 138px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 355px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 410px;
+    }
+    /* =======shop.html========= */
+    .shop-shop.shop .shop-head span:nth-child(5){
+        right: 195px !important;
+    }
+    .shop-shop.shop .shop-item {
+        margin-left: 0px;
+    }
+    /* =======projects.html========= */
+    .projects.services .services-item .overlay{
+        height: 220px !important;
+    }
+    /* =======blog.html========= */
+    .blog.shop-section .services-item .overlay{
+        height: 208px !important;
+    }
+} 
+@media only screen and (min-width: 412px) and (max-width: 600px){
+    .navbar ul span{
+        right: 350px;
+    }
+    .header a{
+        right: 185px;
+    }
+    .header .heder-imgs-hover{
+        margin-top: 10px;
+    }
+    .header .header-imgs{
+        margin-top: 12px !important;
+    }
+    .header .header-imgs .sm{
+        margin-top: 12px !important;
+    }
+    .shop .shop-item {
+        margin-left: 0px;
+    }
+    .shop .icons {
+        left: 150px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 370px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 420px;
+    }
+     /* =======shop.html========= */
+     .shop-shop.shop .shop-head span:nth-child(5){
+        right: 210px;
+    }
+    .accordion-line.-sm{
+        width: 385px !important;
+    }
+    /* =======projects.html========= */
+    .projects.services .services-item .overlay{
+        height: 233px;
+    }
+    .projects.services  .services-item .overlay:hover .title::before{
+        height: 190px;
+    }
+    .projects.services  .services-item .overlay:hover .title::after{
+        width: 300px;
+    }
+    /* =======blog.html========= */
+    .blog.shop-section .services-item .overlay{
+        height: 217px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 320px){
+    .navbar ul span{
+        right: 258px;
+    }
+    .header a{
+        right: 100px;
+    }
+    .services .overlay{
+        height: 198px;
+    }
+    .services .numbers{
+        background-position: 0px;
+        height: 1000px;
+    }
+    .services .numbers .overlay{
+        height: 1000px;
+    }
+    .say p:nth-child(1){
+        width: 100% !important;
+        text-align: center;
+    }
+    .say .say-sm{
+        width: 75%;
+    }
+    .shop .icons {
+        left: 100px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 285px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 350px;
+    }
+     /* =======shop.html========= */
+     .shop-shop.shop .shop-head span{
+        margin-left: 0px !important;
+    }
+    .shop-shop.shop .shop-head button{
+        margin: 0px 8px;
+    }
+    .shop-shop.shop .shop-head span:nth-child(5){
+        right: 120px;
+    }
+    .shop-shop.shop .shop-item {
+        margin-left: 0px;
+    }
+    .accordion-line.-sm{
+        width: 290px !important;
+    }
+    /* =======projects.html========= */
+    .projects.services .services-item .overlay{
+        height: 170px;
+    }
+    .projects.services  .services-item .overlay:hover .title::before{
+        height: 120px;
+    }
+    .projects.services  .services-item .overlay:hover .title::after{
+        width: 210px;
+    }
+    /* =======blog.html========= */
+    .blog.shop-section .services-item .overlay{
+        height: 166px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 400px){
+    .navbar ul span{
+        right: 310px;
+    }
+    .header a{
+        right: 150px;
+    }
+    .services .overlay{
+        height: 233px;
+    }
+    .services .numbers .overlay{
+        height: 1000px;
+    }
+    .say .say-sm{
+        width: 60%;
+    }
+    .shop .icons {
+        left: 130px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 350px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 400px;
+    }
+    /* =======shop.html========= */
+    .shop-shop.shop .shop-head span:nth-child(5){
+        right: 175px;
+    } 
+    .shop-shop.shop .shop-item {
+        margin-left: 0px;
+    }
+    .accordion-line.-sm{
+        width: 350px !important;
+    } 
+    /* =======projects.html========= */
+    .projects.services .services-item .overlay{
+        height: 208px;
+    }
+    /* =======blog.html========= */
+    .blog.shop-section .services-item .overlay{
+        height: 195px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+    .navbar-toggler:hover{
+        color: var(--main-color);
+    }
+    nav ul li .nav-link:hover::after{
+        width: 0%;
+    }
+    nav ul li .nav-link:hover{
+        color: var(--main-color);
+    }
+    nav ul li:nth-last-child(2){
+        margin-left: 4px !important;
+    }
+    .navbar ul span{
+        right: 650px;
+    }
+    .navbar ul .nav-item:nth-child(2):hover .dropdown-menu{
+        display: none;
+    }
+    .navbar ul .nav-item:nth-child(2) .dropdown-menu.show{
+        display: block; 
+        border: none;
+    }
+    .navbar ul .nav-item:nth-child(2) .dropdown-menu.show li{
+        margin-left: 10px !important;
+    }
+    .navbar ul .nav-item:nth-child(2) .dropdown-menu .dropdown-item:hover{
+        border-right: none;
+        background-color: transparent;
+    }
+    .header{
+        height: 1100px !important;
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content{
+        margin-top: 50px;
+        margin-left: 8px;
+        padding-bottom: 60px !important;
+        width: 100% !important;
+    }
+    .header a{
+        right: -80px;
+        bottom: -10px;
+        padding: 10px;
+    }
+    .header{
+        background-position: -200px -100px;
+    }
+    .header .overlay{
+        height: 1000px !important;
+    }
+    .heder-imgs-hover.sm{
+        margin-top: -4px !important;
+    }
+    .header-imgs:hover .heder-imgs-hover{
+        width: 100%;
+    } 
+    .pricing{
+        margin-top: -30px !important;
+        padding-top: 0 !important;
+    }
+    .pricing-item{
+        width: 100%;
+        text-align: center;
+    }
+    .pricing .ipad-flex{
+        display: block !important;
+    }
+    .pricing-item .INFO{
+        padding-right: 50px;
+    }
+    .pricing p{
+        font-size: 13px;
+    }
+    .pricing .chooseUs{
+        background-position: 0px 0px;
+        height: 450px !important;
+    }
+    .pricing .chooseUs h2{
+        font-weight: 500;
+        padding-top: 0 !important;
+    }
+    .chooseUs .row{
+        width: 80%;
+    }
+    .pricing .chooseUs i{
+        font-size: 22px;
+        left: -16px;
+    }
+    .services-item .overlay{
+        height: 223px;
+    }
+    .services .numbers{
+        background-position: 0px;
+    }
+    .services .numbers .row .col-md-3{
+        width: 50%;
+    }
+    .say .carousel-inner{
+        width: 100% !important;
+    }
+    .say .partof-say .row .col-md-6:nth-child(1){
+        width: 60%;
+    }
+    .say .partof-say .row .col-md-6:nth-child(2){
+        width: 40%;
+    }
+    .say .partof-say p:nth-child(2){
+        font-size: 13px;
+        width: 100%;
+    }
+    .say .say-sm{
+        width: 100%;
+    }
+    .shop{
+        padding-left: 23px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .shop-item h3{
+        margin-top: 0px !important;
+    }
+    .shop .icons {
+        left: 70px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 280px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 280px;
+    }
+    .map .map-div {
+        display: none !important;
+    }
+    .map .sm-map{
+        display: inline-flex !important;
+        margin-top: -5px;
+    }
+    .map .sm-map div{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 0px 30px;
+    }
+    .map .sm-map div:nth-child(2){
+        margin-top: -45px;
+        position: relative;
+    }
+    .map .sm-map div:nth-child(2) span{
+        width: 100%;
+        position: absolute;
+    }
+    .footer .infobar-icons i{
+        margin-left: -4px;
+    }
+    .footer h2{
+        margin-bottom: 0px;
+    }
+    .shop-header{
+        background-position: -100px 0px;
+    }
+    .shop-header h1{
+        margin-left: -25px !important;
+        height: 210px !important;
+        font-size: 34px !important;
+        font-weight: 500;
+    }
+    .shop-header .shop-header-item {
+        margin-left: -22px !important;
+    }
+    .shop-shop.shop .shop-head span:nth-child(5){
+        position: absolute;
+        top: 40px;
+        right: 260px;
+        width: 100% !important;
+    }
+    .shop-shop.shop .col-md-6{
+        width: 100% !important;
+    }
+    .accordion-line.-sm{
+        width: 250px;
+    }
+    .shop-section .partof-say {
+        padding: 11px!important;
+        width: 260px;
+        height: 170px;
+        margin-left: -10px;
+    }
+    .shop-section .partof-say h2{
+        margin-top: 8px;
+        font-size: 17px !important;
+    }
+    .shop-section .partof-say a{
+        padding: 8px;
+    }
+    .shop-shop.shop .paragraph {
+        width: 100%;
+    }
+    .tablet-sec{
+        padding: 8px 10px !important;
+    }
+    .top-rate .sale{
+        top: 20px;
+        left: 70px;
+    }
+    .top-rate .tablet-sec{
+        margin-left: -12px;
+    }
+    .top-rate .rate-info:nth-child(3) h3{
+        margin-left: 50px !important;
+    }
+    /* =======services.html======== */
+    .services-header .overlay{
+        height: 200px !important;
+    }
+     /* =======projects.html========= */
+     .projects.services{
+        margin-left: 50px;
+     }
+    .projects.services  .services-item .overlay:hover .title::before{
+        height: 170px;
+    }
+    .projects.services  .services-item .overlay:hover .title::after{
+        width: 260px;
+    }
+    /* =======blog.html========= */
+    .blog.shop-section .services-item .overlay{
+        height: 255px;
+    }  
+    .accordion-button:not(.collapsed) {
+        width: 250px !important;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1196px){
+    .navbar ul span{
+        right: -12px;
+        margin-top: 5px;
+    }
+    nav ul li:nth-last-child(3){
+        width: 103px !important;
+    }
+    /* header */
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content{
+        padding-bottom: 60px !important;
+        width: 100% !important;
+    }
+    .header a{
+        right: -50px;
+        bottom: -10px;
+    }
+    .header-imgs:hover .heder-imgs-hover{
+        width: 75%;
+    } 
+    /* pricing */
+    .pricing{
+        margin-top: 10px !important;
+    }
+    .pricing .chooseUs{
+        height: 380px;
+    }
+    .pricing .chooseUs h2{
+        font-weight: 500;
+        padding-top: 0 !important;
+    }
+    .pricing .chooseUs i{
+        font-size: 22px;
+        left: -16px;
+    }
+    /* services */
+    .services-item .overlay{
+        height: 197px;
+    }
+    .services-item .overlay i{
+        transform: scale(1);
+    }
+    .services .numbers-info{
+        margin-top: 20px !important;
+    }
+    .services .numbers span, .para {
+        font-size: 30px;
+    }
+    /* say */
+    .say .carousel-inner{
+        width: 80% !important;
+    }
+    /* shop */
+    .shop{
+        padding-left: 23px;
+    }
+    .shop .icons {
+        left: 115px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 355px;
+        left: 100px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 355px;
+        left: 112px;
+    }
+    /* map */
+    .map ul:nth-last-child(1) span {
+        width: 50%;
+    }
+    /* ======shop.html========== */
+    .shop-header{
+        background-position: -100px 0px;
+    }
+    .shop-header h1{
+        margin-left: -25px !important;
+        height: 210px !important;
+        font-size: 34px !important;
+        font-weight: 500;
+    }
+    .shop-header .shop-header-item {
+        margin-left: -22px !important;
+    }
+    .shop-shop.shop .shop-head span:nth-child(5){
+        position: absolute;
+        top: 40px;
+        right: 260px;
+        width: 100% !important;
+    }
+    .shop-shop.shop .col-md-6{
+        width: 100% !important;
+    }
+    .accordion-line.-sm{
+        width: 250px;
+    }
+    .shop-section .partof-say {
+        padding: 11px!important;
+        width: 260px;
+        height: 170px;
+        margin-left: -10px;
+    }
+    .shop-section .partof-say h2{
+        margin-top: 8px;
+        font-size: 17px !important;
+    }
+    .shop-section .partof-say a{
+        padding: 8px;
+    }
+    .shop-shop.shop .paragraph {
+        width: 100%;
+    }
+    .tablet-sec{
+        padding: 8px 10px !important;
+    }
+    .top-rate .sale{
+        top: 20px;
+        left: 70px;
+    }
+    .top-rate .tablet-sec{
+        margin-left: -12px;
+    }
+    .top-rate .rate-info:nth-child(3) h3{
+        margin-left: 50px !important;
+    }
+    /* =======services.html======== */
+    .services-header .overlay{
+        height: 200px !important;
+    }
+     /* =======projects.html========= */
+     .projects.services{
+        margin-left: 50px;
+     }
+    .projects.services  .services-item .overlay:hover .title::before{
+        height: 170px;
+    }
+    .projects.services  .services-item .overlay:hover .title::after{
+        width: 260px;
+    }
+    /* =======blog.html========= */
+    .blog.shop-section .services-item .overlay{
+        height: 255px;
+    }  
+    .accordion-button:not(.collapsed) {
+        width: 250px !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /* nav */
+    .navbar-toggler:hover{
+        color: var(--main-color);
+    }
+    nav ul li .nav-link:hover::after{
+        width: 0%;
+    }
+    nav ul li .nav-link:hover{
+        color: var(--main-color);
+    }
+    nav ul li:nth-last-child(2){
+        margin-left: 4px !important;
+    }
+    .navbar ul span{
+        right: 650px;
+    }
+    /* header */
+    .header{
+        height: 750px !important;
+        background-position: -200px -100px;
+    }
+    .header .overlay{
+        height: 650px !important;
+
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content{
+        padding-bottom: 60px !important;
+        width: 100% !important;
+    }
+    .header a{
+        right: -80px;
+        bottom: -10px;
+    }
+    .header-imgs:hover .heder-imgs-hover{
+        width: 100%;
+    } 
+    /* pricing */
+    .pricing{
+        margin-top: -30px !important;
+        padding-top: 0 !important;
+    }
+    .pricing-item img{
+        width: 50%;
+    }
+    .pricing .ipad-flex{
+        display: block !important;
+    }
+    .pricing-item .INFO{
+        padding-right: 30px;
+        text-align: center;
+    }
+    .pricing p{
+        font-size: 13px;
+    }
+    .pricing .chooseUs{
+        background-position: 0px 0px;
+        height: 450px !important;
+    }
+    .pricing .chooseUs h2{
+        font-weight: 500;
+        padding-top: 0 !important;
+    }
+    .chooseUs .row{
+        width: 80%;
+    }
+    .pricing .chooseUs i{
+        font-size: 22px;
+        left: -16px;
+    }
+    /* services */
+    .services-item .overlay{
+        height: 145px;
+    }
+    .services-item .overlay i{
+        transform: scale(1.2);
+    }
+    .services .INFO h3{
+        line-height: 25px;
+    }
+    .services .INFO p{
+        text-align: left;
+    }
+    .services .numbers{
+        background-position: 0px;
+    }
+    .services .numbers-info{
+        margin-top: 20px !important;
+    }
+    .services .numbers span, .para {
+        font-size: 30px;
+    }
+    /* say */
+    .say .carousel-inner{
+        width: 85% !important;
+    }
+    .say .partof-say p:nth-child(1){
+        font-size: 16.5px;
+
+    }
+    .say .partof-say p:nth-child(2){
+        font-size: 13px;
+    }
+    /* shop */
+    .shop{
+        /* padding-left: 0px !important; */
+    }
+    .shop .icons {
+        left: 70px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(9) .icons{
+        top: 280px;
+        left: 80px;
+    }
+    .shop .row .col-md-4:nth-last-of-type(8) .icons{
+        top: 280px;
+        left: 80px;
+    }
+    /* footer */
+    .footer .infobar-icons i{
+        margin-left: -4px;
+    }
+    /* scrol-up */
+   .scroll-top {
+    right: 35px;
+}
+}
